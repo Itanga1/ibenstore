@@ -1,0 +1,146 @@
+#google {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 6px;
+  border-radius: 5px;
+}
+#google:visited {
+  background-color: gray;
+}
+#google:hover {
+  text-decoration: white solid underline;
+}
+#google:active {
+  opacity: 0.5;
+}
+#facebook {
+  text-decoration: none;
+  color: white;
+  background-color: dodgerblue;
+  padding: 6px;
+  border-radius: 5px;
+}
+#facebook:visited {
+  background-color: gray;
+}
+#facebook:hover {
+  text-decoration: white solid underline;
+}
+#facebook:active {
+  opacity: 0.5;
+}
+#w3schools {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 6px;
+  border-radius: 5px;
+}
+#w3schools:visited {
+  background-color: gray;
+}
+#w3schools:hover {
+  text-decoration: white solid underline;
+}
+#w3schools:active {
+  opacity: 0.5;
+}
+#igihe {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(123, 200, 252);
+  padding: 6px;
+  border-radius: 5px;
+}
+#igihe:visited {
+  background-color: gray;
+}
+#igihe:hover {
+  text-decoration: white solid underline;
+}
+#igihe:active {
+  opacity: 0.5;
+}
+#youtube {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(204, 39, 39);
+  padding: 6px;
+  border-radius: 5px;
+}
+#youtube:visited {
+  background-color: gray;
+}
+#youtube:hover {
+  text-decoration: white solid underline;
+}
+#youtube:active {
+  opacity: 0.5;
+}
+#stackoverflow {
+  text-decoration: none;
+  color: white;
+  background-color: chocolate;
+  padding: 6px;
+  border-radius: 5px;
+}
+#stackoverflow:visited {
+  background-color: gray;
+}
+#stackoverflow:hover {
+  text-decoration: white solid underline;
+}
+#stackoverflow:active {
+  opacity: 0.5;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style: upper-roman;
+}
+table {
+  border-collapse: collapse;
+  width: 400px;
+  height: 150px;
+}
+th {
+  text-align: left;
+}
+td {
+  text-align: center;
+}
+#link-to-page1 {
+  background-color: dodgerblue;
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+div {
+  width: 200px;
+  height: 200px;
+}
+#box1 {
+  border: 10px solid black;
+  padding: 20px;
+  background-color: rgb(207, 228, 232);
+}
+#box2 {
+  border: 20px solid black;
+  background-color: red;
+  margin-left: 260px;
+}
+#box3 {
+  border: 10px solid black;
+  background-color: blue;
+  margin-left: 500px;
+}
+#link-to-page2 {
+  background-color: dodgerblue;
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  text-decoration: none;
+}

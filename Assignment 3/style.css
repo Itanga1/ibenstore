@@ -1,0 +1,188 @@
+nav {
+  padding: 0;
+  margin-top: 10px;
+  background-color: green;
+  position: sticky;
+  top: 0;
+  display: flex;
+  height: auto;
+  border-radius: 10px;
+}
+.active {
+  background-color: rgb(103, 168, 103);
+}
+nav ul li {
+  padding-right: 5px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  vertical-align: bottom;
+  height: 85%;
+  list-style-type: none;
+  background-color: green;
+}
+nav ul li a {
+  padding: 0px 5px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav ul li:hover {
+  background-color: rgb(33, 114, 33);
+}
+nav ul {
+  align-items: center;
+  background-color: green;
+  display: flex;
+  gap: 5px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#left {
+  flex-grow: 1;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+#div1 {
+  margin-top: -20px;
+  text-align: center;
+  background-color: rgb(193, 245, 193);
+  max-width: 100%;
+}
+h1 {
+  font-family: lucida handwriting;
+}
+h3 {
+  font-family: papyrus;
+}
+span {
+  text-decoration: red dotted underline;
+}
+img {
+  width: 300px;
+  border-radius: 50%;
+}
+body {
+  margin: 0;
+  margin-top: -10px;
+}
+body {
+  text-align: center;
+}
+#choose-color {
+  text-decoration: none;
+  background-color: dodgerblue;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+#choose-color:hover {
+  background-color: rgb(137, 137, 59);
+  text-decoration: underline;
+}
+#choose-color:visited {
+  background-color: rgb(215, 67, 64);
+}
+#div2 {
+  background-color: #98f092;
+  text-align: left;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+ul {
+  padding: 20px;
+  list-style-type: square;
+  background-color: pink;
+  color: #072629;
+}
+ol {
+  padding: 20px;
+  list-style-type: lower-alpha;
+  background-color: #7398f5;
+}
+ul li {
+  background-color: white;
+  margin: 2px;
+  padding: 5px;
+}
+ol li {
+  background-color: white;
+  margin: 2px;
+  padding: 5px;
+}
+.favorite-sites li {
+  list-style-type: none;
+}
+#skills {
+  background-color: #c2fcd9;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#table1 {
+  font-size: x-large;
+  text-align: left;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#table1 tr:nth-child(even) {
+  background-color: #98f092;
+  color: white;
+}
+#table2 {
+  width: 50%;
+  height: 200px;
+  text-align: left;
+  border-collapse: collapse;
+}
+#table2 th,
+td {
+  border-bottom: 1px solid gray;
+}
+#table2 th {
+  background-color: #98f092;
+  color: white;
+}
+#comment {
+  position: relative;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  row-gap: 20px;
+  padding: 20px;
+  background-color: #98f092;
+}
+input,
+select {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+#submit {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
+#submit:hover {
+  color: white;
+  background-color: rgb(95, 205, 95);
+  cursor: pointer;
+}
